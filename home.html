@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function sortfunction(a, b){
+        console.log(a - b)
+        return (a - b) //faz com que o array seja ordenado numericamente e de ordem crescente.
+    }   
+    let totalItems = 10;
+    let items = [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1];
+    items = items.sort(sortfunction)
+    let par = []
+    let impar = []
+    for (let i = 0; i < totalItems; i++) {
+        if(items[i]%2 == 0){
+            par.push(items[i])
+        }
+        else{
+            impar.push(items[i])
+        }
+    }
+    items = par.concat(impar);
+
+</script>
+<body>
+    
+</body>
+</html>
