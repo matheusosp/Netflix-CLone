@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/matheusosp/Netflix-Clone/main/gif.gif" style="width:800px;height:100%;"/>
+<img src="https://raw.githubusercontent.com/matheusosp/Netflix-Clone/main/gif.gif" width=800 height=500/>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/matheusosp/Netflix-Clone/main/Netflix%20Clone.jpg">
